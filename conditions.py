@@ -7,7 +7,7 @@
 #     print("Vous êtes majeur")
 #     print("Soyez le bienvenu")
 
-nombre = int(input("Donne un nombre: "))
+# nombre = int(input("Donne un nombre: "))
 # if nombre < 0:
 #     print(nombre, "est négatif")
 # else:
@@ -16,9 +16,24 @@ nombre = int(input("Donne un nombre: "))
 #     else:
 #         print(nombre, "Nul")
 
-if nombre < 0:
-    print(nombre, "est négatif")
-elif nombre == 0:
-     print(nombre, "Nul")
-else :
-    print(nombre, "est positf")
+# if nombre < 0:
+#     print(nombre, "est négatif")
+# elif nombre == 0:
+#      print(nombre, "Nul")
+# else :
+#     print(nombre, "est positf")
+
+# x = 15
+# if 10 < x < 20:
+#     print(x, "est encadré entre 10 et 20")
+
+mois = 'uhlrgg'
+
+match mois:
+    case "Janvier":
+        print("Mois: 1")
+    case "Février":
+        print("Mois: 2")
+    case _:
+        print("Autre")
+ 
