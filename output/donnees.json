@@ -1,0 +1,27 @@
+{
+    "entreprise": "TechNova",
+    "employes": [
+        {
+            "id": 1,
+            "nom": "Alice",
+            "poste": "Développeuse",
+            "competences": [
+                "Python",
+                "SQL"
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "Martin",
+            "poste": "Analyste",
+            "competences": [
+                "Excel",
+                "Power BI"
+            ]
+        }
+    ],
+    "localisation": {
+        "pays": "France",
+        "ville": "Lyon"
+    }
+}

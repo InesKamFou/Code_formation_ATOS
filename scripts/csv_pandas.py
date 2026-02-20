@@ -1,6 +1,6 @@
 import pandas as pd # pd : alias
 
-df = pd.read_csv("personnes.csv")
+df = pd.read_csv("../input/personnes.csv")
 print(df)
 # Les noms
 
@@ -11,5 +11,5 @@ print(df_nom)
 df_france = df[(df['Pays']=='France') & (df['Sexe']=='F')]
 print(df_france)
 print(len(df_france))
-df_france.to_csv("Personnes_françaises.csv", sep= ';', index = False )
+df_france.to_csv("../output/Personnes_françaises.csv", sep= ';', index = False )
 

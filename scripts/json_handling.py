@@ -21,9 +21,9 @@ donnees_initiales = {
     }
 }
 
-with open("donnees.json", "w", encoding="utf-8") as f:
+with open("../output/donnees.json", "w", encoding="utf-8") as f:
     json.dump(donnees_initiales, f, indent=4, ensure_ascii=False)
 
-with open('donnees.json', mode = 'r', encoding = 'utf-8') as f:
+with open('../input/donnees.json', mode = 'r', encoding = 'utf-8') as f:
     data = json.load(f)
 print(data)
